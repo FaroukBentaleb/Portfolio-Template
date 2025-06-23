@@ -16,23 +16,23 @@ function Skill(){
     ];
     return (
         <>
-            <div className='flex flex-col gap-5 border p-6 pb-20 w-2/3 h-auto justify-center items-center rounded-[3rem] bg-[#0f3062] right-1/2 -mt-32 mb-52 shadow-lg mx-auto'>
-                <div className='font-serif text-3xl mt-5 font-bold text-[#FCFFFE]'>
+            <div className='flex flex-col gap-5 border sm:p-6 sm:pb-20 pb-10 sm:w-2/3 mr-5 ml-5 sm:h-auto h-72 justify-center items-center rounded-[3rem] bg-[#0f3062] sm:right-1/2 -mt-10 sm:-mt-32 mb-52 shadow-lg sm:mx-auto'>
+                <div className='font-serif sm:text-3xl text-2xl sm:mt-5 mt-2 font-bold text-[#FCFFFE]'>
                     <p>Skills</p>
                 </div>
-                <div className='flex flex-col gap-5 rounded-[1rem] pl-28 pr-28 text-slate-400 overflow-hidden'>
+                <div className='flex flex-col sm:gap-5 gap-2 rounded-[1rem] text-xs pl-5 pr-5 sm:pl-28 sm:pr-28 text-slate-400 overflow-hidden'>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil beatae, eos iste incidunt repellat iure ducimus quam veniam odio quasi adipisci libero ea reprehenderit aspernatur fugit modi suscipit? Suscipit, mollitia.</p>
-                        <div className="grid grid-cols-2 gap-4 w-full text-white">
+                        <div className="grid grid-cols-2 sm:gap-4 gap-1 w-full text-white">
                             {skills.map((skill, index) => (
-                                <div key={index} className="flex items-center gap-6 w-full">
-                                    <img className="w-12 h-12 object-contain" src={skill.img} alt={skill.name} />
-                                    <div className="flex-1 h-4 bg-gray-500 rounded-lg overflow-hidden">
+                                <div key={index} className="flex items-center sm:gap-6 gap-2 w-full">
+                                    <img className="sm:w-12 sm:h-12 w-6 object-contain" src={skill.img} alt={skill.name} />
+                                    <div className="flex-1 sm:h-4 bg-gray-500 rounded-lg overflow-hidden">
                                         <div
-                                            className="h-4 bg-green-500"
+                                            className="sm:h-4 h-2 bg-green-500"
                                             style={{ width: `${skill.level}%` }}
                                         ></div>
                                     </div>
-                                    <span className="w-10 text-sm">{skill.level}%</span>
+                                    <span className="sm:w-10 sm:text-sm">{skill.level}%</span>
                                 </div>
                             ))}
                         </div>
