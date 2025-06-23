@@ -29,7 +29,7 @@ function App() {
                 }}/>
           </h1>
           <p className="text-xl text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam consequatur ab sapiente vitae. Ex necessitatibus iste inventore cumque officia voluptas repellendus non placeat. Est praesentium adipisci iste dolorem dicta.</p>
-          <div className='flex flex-row gap-2 m-12 w-auto text-white cursor-pointer'>
+          <div className='flex flex-row gap-2 m-10 w-auto text-white cursor-pointer'>
             <button className='text-lg'>Let's connect </button>
             <img className='w-8' src={Arrow} />
           </div>
