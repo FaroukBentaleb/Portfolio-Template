@@ -18,13 +18,13 @@ function Footer(){
                 <div className=' grid font-serif w-1/2 justify-start items-end pb-10'>
                     <h2 className='text-5xl'>Username</h2>
                 </div>
-                <div className='flex flex-col justify-end items-end w-1/2 text-gray-300'>
+                <div className='flex flex-col justify-end items-end w-1/2 text-gray-300 gap-2'>
                     <div className='flex gap-2'>
                         <img className="w-8 border rounded-2xl bg-white" src={LinkedinPic} alt="linkedin"/>
                         <img className="w-8 border rounded-2xl bg-white" src={FacebookPic} alt="Facebook"/>
                         <img className="w-8 border rounded-2xl bg-white" src={InstagramPic} alt="Instagram"/>
                     </div>
-                    Copyright {2025} . All Rights Reserved
+                    <p>Copyright {2025} . All Rights Reserved</p>
                 </div>
             </div>
         </>
