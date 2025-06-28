@@ -1,22 +1,32 @@
-# React + Tailwind CSS Portfolio Template
+# React + Tailwind CSS Portfolio Template ✨
 
-A clean, creative, and professional **portfolio template** built with **React** and **Tailwind CSS**.
+A clean, modern **portfolio template** built with **React** and **Tailwind CSS** for developers and designers.
 
-**⚠️ This project is currently a work in progress.**  
-New features and sections are being added — feel free to explore or fork it to customize your own portfolio.
+## 🚀 Demo
+[Live Demo](https://theportfoli-o.netlify.app/)
+
+## 📂 GitHub
+[GitHub Repository](https://github.com/FaroukBentaleb/Portfolio-Template)
 
 ## Features
+- **Fully responsive** design that works on all devices
+- **Modern UI** with smooth animations and transitions
+- **Tech-inspired** clean background and layouts
 
-- Responsive and modern design
-- Built with React and Tailwind CSS
-- Tech-inspired clean background
-- Simple structure for easy customization
+## Quick Start
 
-## Installation
-
-1. Clone this repository:
-
+1. **Clone and install:**
 ```bash
 git clone https://github.com/FaroukBentaleb/Portfolio-Template.git
 cd Portfolio-Template
+npm install
 ```
+
+2. **Start development:**
+```bash
+npm start
+```
+
+## Tech Stack
+- **React** - Frontend framework
+- **Tailwind CSS** - Styling
